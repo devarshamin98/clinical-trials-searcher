@@ -1,8 +1,12 @@
 
 # Clinical Trial Search Application
 
+
+https://github.com/user-attachments/assets/5d5e372c-4aab-46db-8d9f-d537abf9cfd9
+
+
 ## Overview
-This application is designed to help clinical researchers, search through clinical trials related to a specific disease. The backend leverages OpenAI embeddings and FAISS for advanced search, providing relevant clinical trials from the `clinical_trials.json` dataset which includes 10000 trial records.
+This application is designed to help clinical researchers, search through clinical trials related to a specific disease and or involving a specific drug/therapy/technique. The backend leverages OpenAI embeddings and FAISS for advanced search, providing relevant clinical trials from the `clinical_trials.json` dataset which includes 10000 trial records.
 
 ### Features:
 - **Advanced Search**: Allows users to search for specific disease trials along with relevant drugs.
@@ -126,7 +130,7 @@ RUN npm run build
 EXPOSE 3000
 
 CMD ["npm", "start"]
-
+```
 
 ## Alternatives to Loading the Dataset in Memory:
 
